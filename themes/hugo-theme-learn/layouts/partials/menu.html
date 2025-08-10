@@ -39,11 +39,11 @@
       </section>
     {{end}}
 
-    {{ if or .Site.IsMultiLingual $showvisitedlinks }}
+    {{ if or hugo.IsMultilingual .Site.Params.showVisitedLinks }}
     <section id="prefooter">
       <hr/>
       <ul>
-      {{ if and .Site.IsMultiLingual (not .Site.Params.DisableLanguageSwitchingButton)}}
+      {{ if and hugo.IsMultilingual (not .Site.Params.DisableLanguageSwitchingButton)}}
         <li>
           <a class="padding">
             <i class="fas fa-language fa-fw"></i>
@@ -101,7 +101,9 @@
     {{safeHTML .Params.head}}
     <li data-nav-id="{{.RelPermalink}}" title="{{.Title}}" class="dd-item 
         {{if .IsAncestor $currentNode }}parent{{end}}
-        {{if eq .File.UniqueID $currentFileUniqueID}}active{{end}}
+        {{ if .File }}
+          {{ .File.UniqueID }}
+        {{ end }}
         {{if .Params.alwaysopen}}parent{{end}}
         ">
       <a href="{{.RelPermalink}}">
