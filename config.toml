@@ -6,6 +6,8 @@ theme = "hugo-theme-learn"
 home = [ "HTML", "RSS", "JSON"]
 
 baseURL = "https://mhkhang1803.github.io/FCJ-Workshop/"
+relativeURLs = true
+canonifyURLs = true
 
 [params]
   # Change default color scheme with a variant one. Can be "red", "blue", "green".
