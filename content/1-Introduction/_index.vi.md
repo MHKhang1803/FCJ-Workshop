@@ -15,4 +15,4 @@ pre : " <b> 1. </b> "
 #### EC2
 **Amazon EC2 (Elastic Compute Cloud)** là dịch vụ điện toán đám mây của AWS cho phép người dùng khởi tạo và quản lý các máy chủ ảo (instance) một cách linh hoạt và theo nhu cầu. Với EC2, người dùng có thể dễ dàng triển khai ứng dụng, lưu trữ dữ liệu, cấu hình hệ điều hành, và mở rộng hạ tầng khi cần thiết. Dịch vụ này hỗ trợ nhiều loại instance phù hợp với các mục đích khác nhau như web server, xử lý dữ liệu, hay machine learning, giúp tiết kiệm chi phí và tối ưu hiệu suất vận hành.
 
-![Introduction](/static/images/1/AWSWorkshop.png)
+![Introduction](/static/images/1/AWSWorkshop.png?featherlight=false&width=90pc)

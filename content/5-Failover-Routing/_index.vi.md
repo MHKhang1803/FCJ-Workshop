@@ -18,9 +18,9 @@ pre : " <b> 5. </b> "
     - Chọn **Hosted zones** đã tạo 
     - Chọn **Create records**
 
-![FailoverRouting](/images/2/CWT1.png?featherlight=false&width=90pc)
+![FailoverRouting](/static/images/2/CWT1.png?featherlight=false&width=90pc)
 
-![FailoverRouting](/images/2/CWT2.png?featherlight=false&width=90pc)
+![FailoverRouting](/static/images/2/CWT2.png?featherlight=false&width=90pc)
 
 {{% notice note %}}
 Xóa các record kiểu khác do Route 53 chỉ cho một record trùng Name/Type, sau đó tiến hành tạo record mới 
@@ -40,7 +40,7 @@ Xóa các record kiểu khác do Route 53 chỉ cho một record trùng Name/Typ
    - **Record ID**: SG-Failover
    - Nhấn **Create records**
 
-![FailoverRouting](/images/2/CFL1.png?featherlight=false&width=90pc)
+![FailoverRouting](/static/images/2/CFL1.png?featherlight=false&width=90pc)
 
 - Record 2: Virginia
 
@@ -54,7 +54,7 @@ Xóa các record kiểu khác do Route 53 chỉ cho một record trùng Name/Typ
    - **Record ID**: VG-Failover
    - Nhấn **Create records**
 
-![FailoverRouting](/images/2/CFL2.png?featherlight=false&width=90pc)
+![FailoverRouting](/static/images/2/CFL2.png?featherlight=false&width=90pc)
 
 {{% notice note %}}
 Test nhanh bằng cách truy cập vào địa chỉ domain (ví dụ http://www.workshopkhang.com) sẽ thấy hiện ra trang chủ của Sigapore do chúng ta gán Failover record type của Singapore là Primary, tức là server chính
@@ -67,26 +67,26 @@ Test nhanh bằng cách truy cập vào địa chỉ domain (ví dụ http://www
 
   - Kết nối SSH vào EC2 Singapore, dùng MobaXterm
 
-![FailoverRouting](/images/2/CFL3.png?featherlight=false&width=90pc)
+![FailoverRouting](/static/images/2/CFL3.png?featherlight=false&width=90pc)
 
   - Dừng web server (Apache) trên EC2 Singapore bằng câu lệnh: `sudo systemctl stop httpd`
 
-![FailoverRouting](/images/2/CFL4.png?featherlight=false&width=90pc)
+![FailoverRouting](/static/images/2/CFL4.png?featherlight=false&width=90pc)
 
   - Chờ khoảng 1–2 phút (tuỳ Health Check time và fail threshold), Route 53 sẽ phát hiện server Singapore bị lỗi (Unhealthy) và sẽ chuyển truy cập sang Virginia.
 
-![FailoverRouting](/images/2/CFL6.png?featherlight=false&width=90pc)
+![FailoverRouting](/static/images/2/CFL6.png?featherlight=false&width=90pc)
 
   - Truy cập lại địa chỉ domain(ví dụ http://www.workshopkhang.com), nếu cấu hình đúng, chúng ta sẽ thấy Web Server của Virginia 
 
-![FailoverRouting](/images/2/CFL5.png?featherlight=false&width=90pc)
+![FailoverRouting](/static/images/2/CFL5.png?featherlight=false&width=90pc)
 
 {{% notice note %}}
 Sau khi kiểm thử xong, chúng ta có thể khởi động lại Apache ở Singapore nếu muốn đưa hệ thống trở lại bình thường bằng cách nhập lệnh `sudo systemctl start httpd`
 {{% /notice %}}
 
-![FailoverRouting](/images/2/CFL7.png?featherlight=false&width=90pc)
+![FailoverRouting](/static/images/2/CFL7.png?featherlight=false&width=90pc)
 
 - Route 53 sẽ tự động chuyển lại về Singapore sau khi Health Check nhận server Healthy.
 
-![FailoverRouting](/images/2/CFL8.png?featherlight=false&width=90pc)
+![FailoverRouting](/static/images/2/CFL8.png?featherlight=false&width=90pc)

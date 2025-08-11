@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="vi" class="js csstransforms3d">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="generator" content="Hugo 0.147.9">
@@ -12,21 +12,21 @@
     <title>Failover Routing :: Tạo mới tài khoản AWS</title>
 
     
-    <link href="/css/nucleus.css?1754890107" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1754890107" rel="stylesheet">
-    <link href="/css/hybrid.css?1754890107" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1754890107" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1754890107" rel="stylesheet">
-    <link href="/css/auto-complete.css?1754890107" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1754890107" rel="stylesheet">
-    <link href="/css/theme.css?1754890107" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1754890107" rel="stylesheet">
+    <link href="/css/nucleus.css?1754891181" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1754891181" rel="stylesheet">
+    <link href="/css/hybrid.css?1754891181" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1754891181" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1754891181" rel="stylesheet">
+    <link href="/css/auto-complete.css?1754891181" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1754891181" rel="stylesheet">
+    <link href="/css/theme.css?1754891181" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1754891181" rel="stylesheet">
     
-    <link href="/css/theme-workshop.css?1754890107" rel="stylesheet">
+    <link href="/css/theme-workshop.css?1754891181" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1754890107"></script>
+    <script src="/js/jquery-3.3.1.min.js?1754891181"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -57,14 +57,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1754890107"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1754890107"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1754891181"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1754891181"></script>
 <script type="text/javascript">
     
-        var baseurl = "\/\/localhost:1313\/\/vi";
+        var baseurl = "\/\/vi";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1754890107"></script>
+<script type="text/javascript" src="/js/search.js?1754891181"></script>
 
     
   </div>
@@ -413,7 +413,7 @@
                   
                     
                     
-                      <option id="en" value="//localhost:1313/5-failover-routing/">English</option>
+                      <option id="en" value="/5-failover-routing/">English</option>
                     
                   
               
@@ -427,7 +427,7 @@
                   
                     
                     
-                      <option id="vi" value="//localhost:1313/vi/5-failover-routing/" selected>Tiếng Việt</option>
+                      <option id="vi" value="/vi/5-failover-routing/" selected>Tiếng Việt</option>
                     
                   
               
@@ -573,8 +573,8 @@
 </ul>
 </li>
 </ol>
-<p><img src="/images/2/CWT1.png?featherlight=false&amp;width=90pc" alt="FailoverRouting"></p>
-<p><img src="/images/2/CWT2.png?featherlight=false&amp;width=90pc" alt="FailoverRouting"></p>
+<p><img src="/static/images/2/CWT1.png?featherlight=false&amp;width=90pc" alt="FailoverRouting"></p>
+<p><img src="/static/images/2/CWT2.png?featherlight=false&amp;width=90pc" alt="FailoverRouting"></p>
 
 <div class="notices note" ><p>Xóa các record kiểu khác do Route 53 chỉ cho một record trùng Name/Type, sau đó tiến hành tạo record mới</p>
 </div>
@@ -598,7 +598,7 @@
 </ul>
 </li>
 </ul>
-<p><img src="/images/2/CFL1.png?featherlight=false&amp;width=90pc" alt="FailoverRouting"></p>
+<p><img src="/static/images/2/CFL1.png?featherlight=false&amp;width=90pc" alt="FailoverRouting"></p>
 <ul>
 <li>
 <p>Record 2: Virginia</p>
@@ -615,7 +615,7 @@
 </ul>
 </li>
 </ul>
-<p><img src="/images/2/CFL2.png?featherlight=false&amp;width=90pc" alt="FailoverRouting"></p>
+<p><img src="/static/images/2/CFL2.png?featherlight=false&amp;width=90pc" alt="FailoverRouting"></p>
 
 <div class="notices note" ><p>Test nhanh bằng cách truy cập vào địa chỉ domain (ví dụ <a href="http://www.workshopkhang.com">http://www.workshopkhang.com</a>) sẽ thấy hiện ra trang chủ của Sigapore do chúng ta gán Failover record type của Singapore là Primary, tức là server chính</p>
 </div>
@@ -634,28 +634,28 @@
 </ul>
 </li>
 </ul>
-<p><img src="/images/2/CFL3.png?featherlight=false&amp;width=90pc" alt="FailoverRouting"></p>
+<p><img src="/static/images/2/CFL3.png?featherlight=false&amp;width=90pc" alt="FailoverRouting"></p>
 <ul>
 <li>Dừng web server (Apache) trên EC2 Singapore bằng câu lệnh: <code>sudo systemctl stop httpd</code></li>
 </ul>
-<p><img src="/images/2/CFL4.png?featherlight=false&amp;width=90pc" alt="FailoverRouting"></p>
+<p><img src="/static/images/2/CFL4.png?featherlight=false&amp;width=90pc" alt="FailoverRouting"></p>
 <ul>
 <li>Chờ khoảng 1–2 phút (tuỳ Health Check time và fail threshold), Route 53 sẽ phát hiện server Singapore bị lỗi (Unhealthy) và sẽ chuyển truy cập sang Virginia.</li>
 </ul>
-<p><img src="/images/2/CFL6.png?featherlight=false&amp;width=90pc" alt="FailoverRouting"></p>
+<p><img src="/static/images/2/CFL6.png?featherlight=false&amp;width=90pc" alt="FailoverRouting"></p>
 <ul>
 <li>Truy cập lại địa chỉ domain(ví dụ <a href="http://www.workshopkhang.com">http://www.workshopkhang.com</a>), nếu cấu hình đúng, chúng ta sẽ thấy Web Server của Virginia</li>
 </ul>
-<p><img src="/images/2/CFL5.png?featherlight=false&amp;width=90pc" alt="FailoverRouting"></p>
+<p><img src="/static/images/2/CFL5.png?featherlight=false&amp;width=90pc" alt="FailoverRouting"></p>
 
 <div class="notices note" ><p>Sau khi kiểm thử xong, chúng ta có thể khởi động lại Apache ở Singapore nếu muốn đưa hệ thống trở lại bình thường bằng cách nhập lệnh <code>sudo systemctl start httpd</code></p>
 </div>
 
-<p><img src="/images/2/CFL7.png?featherlight=false&amp;width=90pc" alt="FailoverRouting"></p>
+<p><img src="/static/images/2/CFL7.png?featherlight=false&amp;width=90pc" alt="FailoverRouting"></p>
 <ul>
 <li>Route 53 sẽ tự động chuyển lại về Singapore sau khi Health Check nhận server Healthy.</li>
 </ul>
-<p><img src="/images/2/CFL8.png?featherlight=false&amp;width=90pc" alt="FailoverRouting"></p>
+<p><img src="/static/images/2/CFL8.png?featherlight=false&amp;width=90pc" alt="FailoverRouting"></p>
 
 
 
@@ -882,19 +882,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1754890108"></script>
-    <script src="/js/perfect-scrollbar.min.js?1754890108"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1754890108"></script>
-    <script src="/js/jquery.sticky.js?1754890108"></script>
-    <script src="/js/featherlight.min.js?1754890108"></script>
-    <script src="/js/highlight.pack.js?1754890108"></script>
+    <script src="/js/clipboard.min.js?1754891181"></script>
+    <script src="/js/perfect-scrollbar.min.js?1754891181"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1754891181"></script>
+    <script src="/js/jquery.sticky.js?1754891181"></script>
+    <script src="/js/featherlight.min.js?1754891181"></script>
+    <script src="/js/highlight.pack.js?1754891181"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1754890108"></script>
-    <script src="/js/learn.js?1754890108"></script>
-    <script src="/js/hugo-learn.js?1754890108"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1754891181"></script>
+    <script src="/js/learn.js?1754891181"></script>
+    <script src="/js/hugo-learn.js?1754891181"></script>
 
-    <link href="/mermaid/mermaid.css?1754890108" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1754890108"></script>
+    <link href="/mermaid/mermaid.css?1754891181" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1754891181"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

@@ -21,7 +21,7 @@ Here are the steps to create a Security Group in the **Singapore** region:
     - Search for and select **EC2**
     - Select **Security Groups**
 
-![CreateSG](/images/1/CreateSG.png?featherlight=false&width=90pc)
+![CreateSG](/static/images/1/CreateSG.png?featherlight=false&width=90pc)
 
 2. On the **Create security group** interface
 
@@ -29,7 +29,7 @@ Here are the steps to create a Security Group in the **Singapore** region:
     - **Description**: Enter `Allows SSH and HTTP access`
     - **VPC**: Keep the default VPC
 
-![CreateSG](/images/1/CSG1.png?featherlight=false&width=90pc)
+![CreateSG](/static/images/1/CSG1.png?featherlight=false&width=90pc)
 
 3. Configure **Inbound rules**: We need to add three inbound rules by clicking **Add rule** and then configuring each one as follows:
 
@@ -39,16 +39,16 @@ Here are the steps to create a Security Group in the **Singapore** region:
 | HTTP  |   TCP    |     80     | AnyWhere-IPv4 |
 | HTTPS |   TCP    |     443    | AnyWhere-IPv4 |
 
-![CreateSG](/images/1/CSG2.png?featherlight=false&width=90pc)
+![CreateSG](/static/images/1/CSG2.png?featherlight=false&width=90pc)
 
 4. Click **Create security group**
 
-![CreateSG](/images/1/CSG3.png?featherlight=false&width=90pc)
+![CreateSG](/static/images/1/CSG3.png?featherlight=false&width=90pc)
 
-![CreateSG](/images/1/CSG4.png?featherlight=false&width=90pc)
+![CreateSG](/static/images/1/CSG4.png?featherlight=false&width=90pc)
 
 {{% notice note %}}
 Repeat the same steps to create a Security Group in the N. Virginia region, but this time, name the security group web-vg.
 {{% /notice %}}
 
-![CreateSG](/images/1/CSG5.png?featherlight=false&width=90pc)
+![CreateSG](/static/images/1/CSG5.png?featherlight=false&width=90pc)

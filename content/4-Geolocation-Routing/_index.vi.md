@@ -18,9 +18,9 @@ pre : " <b> 4. </b> "
     - Chọn **Hosted zones** đã tạo 
     - Chọn **Create records**
 
-![GeolocationRouting](/images/2/CWT1.png?featherlight=false&width=90pc)
+![GeolocationRouting](/static/images/2/CWT1.png?featherlight=false&width=90pc)
 
-![GeolocationRouting](/images/2/CWT2.png?featherlight=false&width=90pc)
+![GeolocationRouting](/static/images/2/CWT2.png?featherlight=false&width=90pc)
 
 {{% notice note %}}
 Xóa các record kiểu khác do Route 53 chỉ cho một record trùng Name/Type, sau đó tiến hành tạo record mới 
@@ -40,7 +40,7 @@ Xóa các record kiểu khác do Route 53 chỉ cho một record trùng Name/Typ
    - **Record ID**: SG-Geolocation
    - Nhấn **Create records**
 
-![GeolocationRouting](/images/2/CGC1.png?featherlight=false&width=90pc)
+![GeolocationRouting](/static/images/2/CGC1.png?featherlight=false&width=90pc)
 
 - Record 2: Virginia
 
@@ -54,11 +54,11 @@ Xóa các record kiểu khác do Route 53 chỉ cho một record trùng Name/Typ
    - **Record ID**: VG-Geolocation
    - Nhấn **Create records**
 
-![GeolocationRouting](/images/2/CGC2.png?featherlight=false&width=90pc)
+![GeolocationRouting](/static/images/2/CGC2.png?featherlight=false&width=90pc)
 
 4. Kiểm thử
 
 - Dùng công cụ test từ nhiều location như: https://geopeeker.com
 - Truy cập địa chỉ domain (ví dụ http://www.workshopkhang.com)
 
-![GeolocationRouting](/images/2/CGC3.png?featherlight=false&width=90pc)
+![GeolocationRouting](/static/images/2/CGC3.png?featherlight=false&width=90pc)

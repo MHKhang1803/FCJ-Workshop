@@ -11,7 +11,7 @@ pre : " <b> 6. </b> "
 - Vào **Route 53** → **Health checks**
 - Chọn các health check đã tạo → Delete
 
-![Cleanup](/images/02/CR1.png?featherlight=false&width=90pc)
+![Cleanup](/static/images/02/CR1.png?featherlight=false&width=90pc)
 
 #### Xóa bản ghi DNS trong Hosted Zone
 
@@ -19,13 +19,13 @@ pre : " <b> 6. </b> "
 - Mở domain 
 - Chọn và xóa các bản ghi Weighted/Failover/Geolocation đã tạo
 
-![Cleanup](/images/02/CR2.png?featherlight=false&width=90pc)
+![Cleanup](/static/images/02/CR2.png?featherlight=false&width=90pc)
 
 #### Xóa Hosted Zone
 
 - Chỉ xóa khi bạn không còn nhu cầu sử dụng domain/zone
 
-![Cleanup](/images/02/CR3.png?featherlight=false&width=90pc)
+![Cleanup](/static/images/02/CR3.png?featherlight=false&width=90pc)
 
 #### Terminate EC2 instance
 
@@ -39,9 +39,9 @@ Dọn dẹp trên cả 2 region Singapore và Virginia
 4. Chọn **Instance state**
 5. Chọn **Terminate instance**
 
-![Cleanup](/images/02/CR4.png?featherlight=false&width=90pc)
+![Cleanup](/static/images/02/CR4.png?featherlight=false&width=90pc)
 
-![Cleanup](/images/02/CR5.png?featherlight=false&width=90pc)
+![Cleanup](/static/images/02/CR5.png?featherlight=false&width=90pc)
 
 #### Xóa Security group
 
@@ -55,7 +55,7 @@ Dọn dẹp trên cả 2 region Singapore và Virginia
 4. Chọn **Actions**
 5. Chọn **Delete security groups**
 
-![Cleanup](/images/02/CR6.png?featherlight=false&width=90pc)
+![Cleanup](/static/images/02/CR6.png?featherlight=false&width=90pc)
 
 #### Xóa Key Pair
 
@@ -69,4 +69,4 @@ Dọn dẹp trên cả 2 region Singapore và Virginia
 4. Chọn **Actions**
 5. Chọn **Delete**
 
-![Cleanup](/images/02/CR7.png?featherlight=false&width=90pc)
+![Cleanup](/static/images/02/CR7.png?featherlight=false&width=90pc)
