@@ -18,9 +18,9 @@ pre : " <b> 3. </b> "
     - Select **Hosted zones** you've created
     - Choose **Create records**
 
-![WeightedRouting](/images/2/CWT1.png?featherlight=false&width=90pc)
+![WeightedRouting](/FCJ-Workshop/images/2/CWT1.png?featherlight=false&width=90pc)
 
-![WeightedRouting](/images/2/CWT2.png?featherlight=false&width=90pc)
+![WeightedRouting](/FCJ-Workshop/images/2/CWT2.png?featherlight=false&width=90pc)
 
 1. Create 2 A Records with a Routing Policy of Weighted
 
@@ -36,7 +36,7 @@ pre : " <b> 3. </b> "
    - **Record ID**: SG-Weighted
    - Enter **Create records**
 
-![WeightedRouting](/images/2/CWT3.png?featherlight=false&width=90pc)
+![WeightedRouting](/FCJ-Workshop/images/2/CWT3.png?featherlight=false&width=90pc)
 
 - Record 2: Virginia
 
@@ -50,7 +50,7 @@ pre : " <b> 3. </b> "
    - **Record ID**: VG-Weighted
    - Enter **Create records**
 
-![WeightedRouting](/images/2/CWT4.png?featherlight=false&width=90pc)
+![WeightedRouting](/FCJ-Workshop/images/2/CWT4.png?featherlight=false&width=90pc)
 
 4. Test
 
@@ -61,6 +61,6 @@ pre : " <b> 3. </b> "
    - Sometimes the content "Web Server in Virginia".
    - The frequency should reflect the 50/50 ratio you configured
 
-![WeightedRouting](/images/2/CWT5.png?featherlight=false&width=90pc)
+![WeightedRouting](/FCJ-Workshop/images/2/CWT5.png?featherlight=false&width=90pc)
 
-![WeightedRouting](/images/2/CWT6.png?featherlight=false&width=90pc)
+![WeightedRouting](/FCJ-Workshop/images/2/CWT6.png?featherlight=false&width=90pc)

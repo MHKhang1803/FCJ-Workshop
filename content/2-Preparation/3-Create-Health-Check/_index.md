@@ -22,7 +22,7 @@ Proceed to create 2 Health checks in 2 regions, first in **Singapore**
     - Select **Health checks**
     - Choose **Create health check**
 
-![CreateHealthcheck](/images/01/CHC1.png?featherlight=false&width=90pc)
+![CreateHealthcheck](/FCJ-Workshop/images/01/CHC1.png?featherlight=false&width=90pc)
 
 3. Configure Health checks
 
@@ -32,11 +32,11 @@ Proceed to create 2 Health checks in 2 regions, first in **Singapore**
     - **IP address**: HTTP, then enter the **Public IPv4 address** of the EC2 instance in the Singapore region
     - Enter **Create Health check**
 
-![CreateHealthcheck](/images/01/CHC2.png?featherlight=false&width=90pc)
+![CreateHealthcheck](/FCJ-Workshop/images/01/CHC2.png?featherlight=false&width=90pc)
 
-![CreateHealthcheck](/images/01/CHC3.png?featherlight=false&width=90pc)
+![CreateHealthcheck](/FCJ-Workshop/images/01/CHC3.png?featherlight=false&width=90pc)
 
-![CreateHealthcheck](/images/01/CHC4.png?featherlight=false&width=90pc)
+![CreateHealthcheck](/FCJ-Workshop/images/01/CHC4.png?featherlight=false&width=90pc)
 
 {{% notice note %}}
 Similarly, proceed to create Health checks in the **Virginia** region
@@ -50,8 +50,8 @@ Similarly, proceed to create Health checks in the **Virginia** region
     - **IP address**: HTTP, then enter the **Public IPv4 address** of the EC2 instance in the Virginia region
     - Enter **Create Health check**
 
-![CreateHealthcheck](/images/01/CHC5.png?featherlight=false&width=90pc)
+![CreateHealthcheck](/FCJ-Workshop/images/01/CHC5.png?featherlight=false&width=90pc)
 
-![CreateHealthcheck](/images/01/CHC6.png?featherlight=false&width=90pc)
+![CreateHealthcheck](/FCJ-Workshop/images/01/CHC6.png?featherlight=false&width=90pc)
 
-![CreateHealthcheck](/images/01/CHC7.png?featherlight=false&width=90pc)
+![CreateHealthcheck](/FCJ-Workshop/images/01/CHC7.png?featherlight=false&width=90pc)

@@ -22,7 +22,7 @@ Tiến hành tạo 2 Health checks ở 2 region, trước tiên là ở **Singap
     - Chọn **Health checks**
     - Chọn **Create health check**
 
-![CreateHealthcheck](/images/01/CHC1.png?featherlight=false&width=90pc)
+![CreateHealthcheck](/FCJ-Workshop/images/01/CHC1.png?featherlight=false&width=90pc)
 
 3. Cấu hình Health checks
 
@@ -32,11 +32,11 @@ Tiến hành tạo 2 Health checks ở 2 region, trước tiên là ở **Singap
     - **IP address**: HTTP, sau đó nhập **Public IPv4 address** của EC2 instance ở region Singapore
     - Nhấn **Create Health check**
 
-![CreateHealthcheck](/images/01/CHC2.png?featherlight=false&width=90pc)
+![CreateHealthcheck](/FCJ-Workshop/images/01/CHC2.png?featherlight=false&width=90pc)
 
-![CreateHealthcheck](/images/01/CHC3.png?featherlight=false&width=90pc)
+![CreateHealthcheck](/FCJ-Workshop/images/01/CHC3.png?featherlight=false&width=90pc)
 
-![CreateHealthcheck](/images/01/CHC4.png?featherlight=false&width=90pc)
+![CreateHealthcheck](/FCJ-Workshop/images/01/CHC4.png?featherlight=false&width=90pc)
 
 {{% notice note %}}
 Tương tự, tiến hành tạo Health checks ở region **Virginia**
@@ -50,8 +50,8 @@ Tương tự, tiến hành tạo Health checks ở region **Virginia**
     - **IP address**: HTTP, sau đó nhập **Public IPv4 address** của EC2 instance ở region Virginia
     - Nhấn **Create Health check**
 
-![CreateHealthcheck](/images/01/CHC5.png?featherlight=false&width=90pc)
+![CreateHealthcheck](/FCJ-Workshop/images/01/CHC5.png?featherlight=false&width=90pc)
 
-![CreateHealthcheck](/images/01/CHC6.png?featherlight=false&width=90pc)
+![CreateHealthcheck](/FCJ-Workshop/images/01/CHC6.png?featherlight=false&width=90pc)
 
-![CreateHealthcheck](/images/01/CHC7.png?featherlight=false&width=90pc)
+![CreateHealthcheck](/FCJ-Workshop/images/01/CHC7.png?featherlight=false&width=90pc)

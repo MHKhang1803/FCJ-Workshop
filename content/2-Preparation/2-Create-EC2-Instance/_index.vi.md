@@ -22,11 +22,11 @@ Tiến hành tạo 2 EC2 instance ở 2 region, trước tiên là ở **Singapo
     - Chọn **Instances**
     - Chọn **Launch instances**
 
-![CreateEC2](/images/1/CEC1.png?featherlight=false&width=90pc)
+![CreateEC2](/FCJ-Workshop/images/1/CEC1.png?featherlight=false&width=90pc)
 
 3. Nhập **Name**: `web-singapore`
 
-![CreatEC2](/images/1/CEC2.png?featherlight=false&width=90pc)
+![CreatEC2](/FCJ-Workshop/images/1/CEC2.png?featherlight=false&width=90pc)
 
 4. Chọn Amazon Machine Image (AMI)
 
@@ -35,13 +35,13 @@ Dưới phần **Application and OS Images (Amazon Machine Image)**, làm theo c
    - Chọn **Quick Start**, sau đó chọn **Amazon Linux**.
    - Từ **Amazon Machine Image (AMI)**, chọn **Amazon Linux 2023 kernel-6.1 AMI** (Free tier eligible)
 
-![CreatEC2](/images/1/CEC3.png?featherlight=false&width=90pc)
+![CreatEC2](/FCJ-Workshop/images/1/CEC3.png?featherlight=false&width=90pc)
 
 5. Chọn loại instance
 
     - Dưới phần **Instance type**, chọn loại instance **t2.micro** đủ điều kiện sử dụng trong AWS Free Tier, phù hợp cho các ứng dụng có yêu cầu tài nguyên thấp hoặc môi trường phát triển. 
 
-![CreatEC2](/images/1/CEC4.png?featherlight=false&width=90pc)
+![CreatEC2](/FCJ-Workshop/images/1/CEC4.png?featherlight=false&width=90pc)
 
 6. Cấu hình key pair
 
@@ -51,7 +51,7 @@ Dưới phần **Key pair (login)**, chọn Create key pair, sau đó tiến hà
    - Key pair type: **RSA**
    - Private key file format: **.pem**
 
-![CreatEC2](/images/1/CEC5.png?featherlight=false&width=90pc)
+![CreatEC2](/FCJ-Workshop/images/1/CEC5.png?featherlight=false&width=90pc)
 
 Nhấn **Create key pair**
 
@@ -61,9 +61,9 @@ Nhấn **Create key pair**
     - Chọn **Select existing security group**.
     - Từ **Common security groups**, chọn security group đã tạo trước đó.
 
-![CreatEC2](/images/1/CEC6.png?featherlight=false&width=90pc)
+![CreatEC2](/FCJ-Workshop/images/1/CEC6.png?featherlight=false&width=90pc)
 
-![CreatEC2](/images/1/CEC7.png?featherlight=false&width=90pc)
+![CreatEC2](/FCJ-Workshop/images/1/CEC7.png?featherlight=false&width=90pc)
 
 
 8. Cấu hình Advanced details
@@ -79,14 +79,14 @@ Nhấn **Create key pair**
     echo "<h1>Web Server in Singapore Region</h1>" > /var/www/html/index.html
 ```
 
-![CreatEC2](/images/1/CEC11.png?featherlight=false&width=90pc)
+![CreatEC2](/FCJ-Workshop/images/1/CEC11.png?featherlight=false&width=90pc)
 
 9. Xác nhận và khởi tạo instance
    
     - Xem lại cấu hình instance trong **Summary panel**.
     - Khi đã sẵn sàng, chọn **Launch instance**.
 
-![CreatEC2](/images/1/CEC8.png?featherlight=false&width=90pc)
+![CreatEC2](/FCJ-Workshop/images/1/CEC8.png?featherlight=false&width=90pc)
 
 10. Xác nhận và kiểm tra trạng thái
 
@@ -94,9 +94,9 @@ Nhấn **Create key pair**
     - Theo dõi trạng thái khởi tạo instance. Ban đầu, trạng thái sẽ là **pending** và sau đó chuyển sang **running** khi instance đã sẵn sàng.
     - Đợi cho đến khi instance vượt qua kiểm tra trạng thái (Status check) trước khi thử kết nối.
 
-![CreatEC2](/images/1/CEC9.png?featherlight=false&width=90pc)
+![CreatEC2](/FCJ-Workshop/images/1/CEC9.png?featherlight=false&width=90pc)
 
-![CreatEC2](/images/1/CEC10.png?featherlight=false&width=90pc)
+![CreatEC2](/FCJ-Workshop/images/1/CEC10.png?featherlight=false&width=90pc)
 
 {{% notice note %}}
 Tạo EC2 instance tại Virginia, tương tự như Singapore
@@ -106,7 +106,7 @@ Tạo EC2 instance tại Virginia, tương tự như Singapore
 - Tạo key pair với **Name**: `keyvg`
 - Cấu hình Network settings kết nối với security group đã tạo ở region N.Virginia là web-vg
 
-![CreatEC2](/images/1/CEC12.png?featherlight=false&width=90pc)
+![CreatEC2](/FCJ-Workshop/images/1/CEC12.png?featherlight=false&width=90pc)
 
 - Dán đoạn User data như sau (đổi nội dung hiển thị):
 
@@ -119,18 +119,18 @@ Tạo EC2 instance tại Virginia, tương tự như Singapore
     echo "<h1>Web Server in Virginia Region</h1>" > /var/www/html/index.html
 ```
 
-![CreatEC2](/images/1/CEC13.png?featherlight=false&width=90pc)
+![CreatEC2](/FCJ-Workshop/images/1/CEC13.png?featherlight=false&width=90pc)
 
 - Xác nhận tạo thành công
 
-![CreatEC2](/images/1/CEC14.png?featherlight=false&width=90pc)
+![CreatEC2](/FCJ-Workshop/images/1/CEC14.png?featherlight=false&width=90pc)
 
 11. Kiểm tra Website 
 
 - Copy Public DNS đưa lên trình duyệt để xem nội dung website
 
-![CreatEC2](/images/1/CEC15.png?featherlight=false&width=90pc)
+![CreatEC2](/FCJ-Workshop/images/1/CEC15.png?featherlight=false&width=90pc)
 
 - Website hoạt động
 
-![CreatEC2](/images/1/CEC16.png?featherlight=false&width=90pc)
+![CreatEC2](/FCJ-Workshop/images/1/CEC16.png?featherlight=false&width=90pc)
