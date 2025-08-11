@@ -11,7 +11,7 @@ pre : " <b> 6. </b> "
 - Access **Route 53** → **Health checks**
 - Select the health checks you created → Delete
 
-![Cleanup](/static/images/02/CR1.png?featherlight=false&width=90pc)
+![Cleanup](/images/02/CR1.png?featherlight=false&width=90pc)
 
 #### Delete the DNS record in the Hosted Zone
 
@@ -19,13 +19,13 @@ pre : " <b> 6. </b> "
 - Go to your domain 
 - Select and delete the Weighted, Failover, and Geolocation records you created
 
-![Cleanup](/static/images/02/CR2.png?featherlight=false&width=90pc)
+![Cleanup](/images/02/CR2.png?featherlight=false&width=90pc)
 
 #### Delete Hosted Zone
 
 - Only delete this if you no longer need to use the domain/zone
 
-![Cleanup](/static/images/02/CR3.png?featherlight=false&width=90pc)
+![Cleanup](/images/02/CR3.png?featherlight=false&width=90pc)
 
 #### Terminate EC2 instance
 
@@ -39,9 +39,9 @@ Clean up in both the Singapore and Virginia regions
 4. Click on **Instance state**
 5. Select **Terminate instance**
 
-![Cleanup](/static/images/02/CR4.png?featherlight=false&width=90pc)
+![Cleanup](/images/02/CR4.png?featherlight=false&width=90pc)
 
-![Cleanup](/static/images/02/CR5.png?featherlight=false&width=90pc)
+![Cleanup](/images/02/CR5.png?featherlight=false&width=90pc)
 
 #### Delete Security group
 
@@ -55,7 +55,7 @@ Clean up in both the Singapore and Virginia regions
 4. Click on **Actions**
 5. Select **Delete security group**
 
-![Cleanup](/static/images/02/CR6.png?featherlight=false&width=90pc)
+![Cleanup](/images/02/CR6.png?featherlight=false&width=90pc)
 
 #### Delete Key Pair
 
@@ -69,4 +69,4 @@ Clean up in both the Singapore and Virginia regions
 4. Click on **Actions**
 5. Select **Delete**
 
-![Cleanup](/static/images/02/CR7.png?featherlight=false&width=90pc)
+![Cleanup](/images/02/CR7.png?featherlight=false&width=90pc)

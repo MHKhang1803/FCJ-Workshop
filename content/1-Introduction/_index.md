@@ -15,4 +15,4 @@ pre : " <b> 1. </b> "
 #### EC2
 **Amazon EC2 (Elastic Compute Cloud)** is an AWS cloud computing service that allows users to launch and manage virtual servers (instances) flexibly and on-demand. With EC2, users can easily deploy applications, store data, configure operating systems, and scale their infrastructure as needed. The service supports various instance types suitable for different purposes, such as web servers, data processing, or machine learning, helping to reduce costs and optimize operational performance.
 
-![Introduction](/static/images/1/AWSWorkshop.png?featherlight=false&width=90pc)
+![Introduction](/FCJ-Workshop/images/1/AWSWorkshop.png?featherlight=false&width=90pc)

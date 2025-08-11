@@ -18,9 +18,9 @@ pre : " <b> 4. </b> "
     - Select **Hosted zones** you've created
     - Choose **Create records**
 
-![GeolocationRouting](/static/images/2/CWT1.png?featherlight=false&width=90pc)
+![GeolocationRouting](/images/2/CWT1.png?featherlight=false&width=90pc)
 
-![GeolocationRouting](/static/images/2/CWT2.png?featherlight=false&width=90pc)
+![GeolocationRouting](/images/2/CWT2.png?featherlight=false&width=90pc)
 
 {{% notice note %}}
 Delete the other record types because Route 53 only allows one record with a matching Name/Type, then proceed to create the new record.
@@ -40,7 +40,7 @@ Delete the other record types because Route 53 only allows one record with a mat
    - **Record ID**: SG-Geolocation
    - Enter **Create records**
 
-![GeolocationRouting](/static/images/2/CGC1.png?featherlight=false&width=90pc)
+![GeolocationRouting](/images/2/CGC1.png?featherlight=false&width=90pc)
 
 - Record 2: Virginia
 
@@ -54,11 +54,11 @@ Delete the other record types because Route 53 only allows one record with a mat
    - **Record ID**: VG-Geolocation
    - Enter **Create records**
 
-![GeolocationRouting](/static/images/2/CGC2.png?featherlight=false&width=90pc)
+![GeolocationRouting](/images/2/CGC2.png?featherlight=false&width=90pc)
 
 4. Test
 
 - Use a testing tool from multiple locations, such as: https://geopeeker.com
 - Access the domain address (e.g., http://www.workshopkhang.com)
 
-![GeolocationRouting](/static/images/2/CGC3.png?featherlight=false&width=90pc)
+![GeolocationRouting](/images/2/CGC3.png?featherlight=false&width=90pc)

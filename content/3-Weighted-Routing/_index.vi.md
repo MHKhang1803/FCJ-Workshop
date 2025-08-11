@@ -18,9 +18,9 @@ pre : " <b> 3. </b> "
     - Chọn **Hosted zones** đã tạo 
     - Chọn **Create records**
 
-![WeightedRouting](/static/images/2/CWT1.png?featherlight=false&width=90pc)
+![WeightedRouting](/images/2/CWT1.png?featherlight=false&width=90pc)
 
-![WeightedRouting](/static/images/2/CWT2.png?featherlight=false&width=90pc)
+![WeightedRouting](/images/2/CWT2.png?featherlight=false&width=90pc)
 
 3. Tạo 2 A Record với Routing Policy là Weighted
 
@@ -36,7 +36,7 @@ pre : " <b> 3. </b> "
    - **Record ID**: SG-Weighted
    - Nhấn **Create records**
 
-![WeightedRouting](/static/images/2/CWT3.png?featherlight=false&width=90pc)
+![WeightedRouting](/images/2/CWT3.png?featherlight=false&width=90pc)
 
 - Record 2: Virginia
 
@@ -50,7 +50,7 @@ pre : " <b> 3. </b> "
    - **Record ID**: VG-Weighted
    - Nhấn **Create records**
 
-![WeightedRouting](/static/images/2/CWT4.png?featherlight=false&width=90pc)
+![WeightedRouting](/images/2/CWT4.png?featherlight=false&width=90pc)
 
 4. Kiểm thử
 
@@ -61,6 +61,6 @@ pre : " <b> 3. </b> "
    - Đôi lúc hiện Web Server in Virginia
    - Tần suất sẽ phản ánh theo tỉ lệ 50/50 đã cấu hình
 
-![WeightedRouting](/static/images/2/CWT5.png?featherlight=false&width=90pc)
+![WeightedRouting](/images/2/CWT5.png?featherlight=false&width=90pc)
 
-![WeightedRouting](/static/images/2/CWT6.png?featherlight=false&width=90pc)
+![WeightedRouting](/images/2/CWT6.png?featherlight=false&width=90pc)

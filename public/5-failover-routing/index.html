@@ -12,21 +12,21 @@
     <title>Failover Routing :: Create a new AWS account.</title>
 
     
-    <link href="/css/nucleus.css?1754891181" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1754891181" rel="stylesheet">
-    <link href="/css/hybrid.css?1754891181" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1754891181" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1754891181" rel="stylesheet">
-    <link href="/css/auto-complete.css?1754891181" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1754891181" rel="stylesheet">
-    <link href="/css/theme.css?1754891181" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1754891181" rel="stylesheet">
+    <link href="/css/nucleus.css?1754893702" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1754893702" rel="stylesheet">
+    <link href="/css/hybrid.css?1754893702" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1754893702" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1754893702" rel="stylesheet">
+    <link href="/css/auto-complete.css?1754893702" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1754893702" rel="stylesheet">
+    <link href="/css/theme.css?1754893702" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1754893702" rel="stylesheet">
     
-    <link href="/css/theme-workshop.css?1754891181" rel="stylesheet">
+    <link href="/css/theme-workshop.css?1754893702" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1754891181"></script>
+    <script src="/js/jquery-3.3.1.min.js?1754893702"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -57,14 +57,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1754891181"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1754891181"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1754893702"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1754893702"></script>
 <script type="text/javascript">
     
         var baseurl = "\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1754891181"></script>
+<script type="text/javascript" src="/js/search.js?1754893702"></script>
 
     
   </div>
@@ -573,8 +573,8 @@
 </ul>
 </li>
 </ol>
-<p><img src="/static/images/2/CWT1.png?featherlight=false&amp;width=90pc" alt="FailoverRouting"></p>
-<p><img src="/static/images/2/CWT2.png?featherlight=false&amp;width=90pc" alt="FailoverRouting"></p>
+<p><img src="/images/2/CWT1.png?featherlight=false&amp;width=90pc" alt="FailoverRouting"></p>
+<p><img src="/images/2/CWT2.png?featherlight=false&amp;width=90pc" alt="FailoverRouting"></p>
 
 <div class="notices note" ><p>Delete the other record types because Route 53 only allows one record with a matching Name/Type, then proceed to create the new record.</p>
 </div>
@@ -598,7 +598,7 @@
 </ul>
 </li>
 </ul>
-<p><img src="/static/images/2/CFL1.png?featherlight=false&amp;width=90pc" alt="FailoverRouting"></p>
+<p><img src="/images/2/CFL1.png?featherlight=false&amp;width=90pc" alt="FailoverRouting"></p>
 <ul>
 <li>
 <p>Record 2: Virginia</p>
@@ -615,7 +615,7 @@
 </ul>
 </li>
 </ul>
-<p><img src="/static/images/2/CFL2.png?featherlight=false&amp;width=90pc" alt="FailoverRouting"></p>
+<p><img src="/images/2/CFL2.png?featherlight=false&amp;width=90pc" alt="FailoverRouting"></p>
 
 <div class="notices note" ><p>To quickly test this, visit the domain (e.g., <a href="http://www.workshopkhang.com">http://www.workshopkhang.com</a>). You&rsquo;ll see the Singapore homepage, as we set Singapore&rsquo;s failover record type as Primary, making it the main server.</p>
 </div>
@@ -634,28 +634,28 @@
 </ul>
 </li>
 </ul>
-<p><img src="/static/images/2/CFL3.png?featherlight=false&amp;width=90pc" alt="FailoverRouting"></p>
+<p><img src="/images/2/CFL3.png?featherlight=false&amp;width=90pc" alt="FailoverRouting"></p>
 <ul>
 <li>Stop the web server (Apache) on the EC2 Singapore instance using the command: <code>sudo systemctl stop httpd</code></li>
 </ul>
-<p><img src="/static/images/2/CFL4.png?featherlight=false&amp;width=90pc" alt="FailoverRouting"></p>
+<p><img src="/images/2/CFL4.png?featherlight=false&amp;width=90pc" alt="FailoverRouting"></p>
 <ul>
 <li>Wait for approximately 1-2 minutes (depending on your Health Check time and fail threshold). Route 53 will then detect that the Singapore server is unhealthy and reroute traffic to Virginia</li>
 </ul>
-<p><img src="/static/images/2/CFL6.png?featherlight=false&amp;width=90pc" alt="FailoverRouting"></p>
+<p><img src="/images/2/CFL6.png?featherlight=false&amp;width=90pc" alt="FailoverRouting"></p>
 <ul>
 <li>Access the domain again (e.g., <a href="http://www.workshopkhang.com">http://www.workshopkhang.com</a>). If the configuration is correct, you will see the web server from Virginia</li>
 </ul>
-<p><img src="/static/images/2/CFL5.png?featherlight=false&amp;width=90pc" alt="FailoverRouting"></p>
+<p><img src="/images/2/CFL5.png?featherlight=false&amp;width=90pc" alt="FailoverRouting"></p>
 
 <div class="notices note" ><p>After the test is complete, you can restart Apache in Singapore to restore normal system operation by entering the command <code>sudo systemctl start httpd</code></p>
 </div>
 
-<p><img src="/static/images/2/CFL7.png?featherlight=false&amp;width=90pc" alt="FailoverRouting"></p>
+<p><img src="/images/2/CFL7.png?featherlight=false&amp;width=90pc" alt="FailoverRouting"></p>
 <ul>
 <li>Route 53 will automatically fail back to Singapore once the Health Check detects that the server is healthy</li>
 </ul>
-<p><img src="/static/images/2/CFL8.png?featherlight=false&amp;width=90pc" alt="FailoverRouting"></p>
+<p><img src="/images/2/CFL8.png?featherlight=false&amp;width=90pc" alt="FailoverRouting"></p>
 
 
 
@@ -882,19 +882,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1754891181"></script>
-    <script src="/js/perfect-scrollbar.min.js?1754891181"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1754891181"></script>
-    <script src="/js/jquery.sticky.js?1754891181"></script>
-    <script src="/js/featherlight.min.js?1754891181"></script>
-    <script src="/js/highlight.pack.js?1754891181"></script>
+    <script src="/js/clipboard.min.js?1754893702"></script>
+    <script src="/js/perfect-scrollbar.min.js?1754893702"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1754893702"></script>
+    <script src="/js/jquery.sticky.js?1754893702"></script>
+    <script src="/js/featherlight.min.js?1754893702"></script>
+    <script src="/js/highlight.pack.js?1754893702"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1754891181"></script>
-    <script src="/js/learn.js?1754891181"></script>
-    <script src="/js/hugo-learn.js?1754891181"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1754893702"></script>
+    <script src="/js/learn.js?1754893702"></script>
+    <script src="/js/hugo-learn.js?1754893702"></script>
 
-    <link href="/mermaid/mermaid.css?1754891181" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1754891181"></script>
+    <link href="/mermaid/mermaid.css?1754893702" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1754893702"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
