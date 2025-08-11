@@ -2,171 +2,171 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://mhkhang1803.github.io/FCJ-Workshop/vi/1-introduction/</loc>
+    <loc>/vi/1-introduction/</loc>
     <lastmod>2025-08-07T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://mhkhang1803.github.io/FCJ-Workshop/1-introduction/"
+                href="/1-introduction/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="https://mhkhang1803.github.io/FCJ-Workshop/vi/1-introduction/"
+                href="/vi/1-introduction/"
                 />
   </url><url>
-    <loc>https://mhkhang1803.github.io/FCJ-Workshop/vi/</loc>
+    <loc>/vi/</loc>
     <lastmod>2025-08-07T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://mhkhang1803.github.io/FCJ-Workshop/"
+                href="/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="https://mhkhang1803.github.io/FCJ-Workshop/vi/"
+                href="/vi/"
                 />
   </url><url>
-    <loc>https://mhkhang1803.github.io/FCJ-Workshop/vi/2-preparation/1-create-security-group/</loc>
+    <loc>/vi/2-preparation/1-create-security-group/</loc>
     <lastmod>2025-08-07T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://mhkhang1803.github.io/FCJ-Workshop/2-preparation/1-create-security-group/"
+                href="/2-preparation/1-create-security-group/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="https://mhkhang1803.github.io/FCJ-Workshop/vi/2-preparation/1-create-security-group/"
+                href="/vi/2-preparation/1-create-security-group/"
                 />
   </url><url>
-    <loc>https://mhkhang1803.github.io/FCJ-Workshop/vi/2-preparation/</loc>
+    <loc>/vi/2-preparation/</loc>
     <lastmod>2025-08-07T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://mhkhang1803.github.io/FCJ-Workshop/2-preparation/"
+                href="/2-preparation/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="https://mhkhang1803.github.io/FCJ-Workshop/vi/2-preparation/"
+                href="/vi/2-preparation/"
                 />
   </url><url>
-    <loc>https://mhkhang1803.github.io/FCJ-Workshop/vi/2-preparation/2-create-ec2-instance/</loc>
+    <loc>/vi/2-preparation/2-create-ec2-instance/</loc>
     <lastmod>2025-08-07T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://mhkhang1803.github.io/FCJ-Workshop/2-preparation/2-create-ec2-instance/"
+                href="/2-preparation/2-create-ec2-instance/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="https://mhkhang1803.github.io/FCJ-Workshop/vi/2-preparation/2-create-ec2-instance/"
+                href="/vi/2-preparation/2-create-ec2-instance/"
                 />
   </url><url>
-    <loc>https://mhkhang1803.github.io/FCJ-Workshop/vi/2-preparation/3-create-health-check/</loc>
+    <loc>/vi/2-preparation/3-create-health-check/</loc>
     <lastmod>2025-08-07T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://mhkhang1803.github.io/FCJ-Workshop/2-preparation/3-create-health-check/"
+                href="/2-preparation/3-create-health-check/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="https://mhkhang1803.github.io/FCJ-Workshop/vi/2-preparation/3-create-health-check/"
+                href="/vi/2-preparation/3-create-health-check/"
                 />
   </url><url>
-    <loc>https://mhkhang1803.github.io/FCJ-Workshop/vi/3-weighted-routing/</loc>
+    <loc>/vi/3-weighted-routing/</loc>
     <lastmod>2025-08-07T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://mhkhang1803.github.io/FCJ-Workshop/3-weighted-routing/"
+                href="/3-weighted-routing/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="https://mhkhang1803.github.io/FCJ-Workshop/vi/3-weighted-routing/"
+                href="/vi/3-weighted-routing/"
                 />
   </url><url>
-    <loc>https://mhkhang1803.github.io/FCJ-Workshop/vi/4-geolocation-routing/</loc>
+    <loc>/vi/4-geolocation-routing/</loc>
     <lastmod>2025-08-07T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://mhkhang1803.github.io/FCJ-Workshop/4-geolocation-routing/"
+                href="/4-geolocation-routing/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="https://mhkhang1803.github.io/FCJ-Workshop/vi/4-geolocation-routing/"
+                href="/vi/4-geolocation-routing/"
                 />
   </url><url>
-    <loc>https://mhkhang1803.github.io/FCJ-Workshop/vi/2-preparation/4-create-hosted-zone/</loc>
+    <loc>/vi/2-preparation/4-create-hosted-zone/</loc>
     <lastmod>2025-08-07T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://mhkhang1803.github.io/FCJ-Workshop/2-preparation/4-create-hosted-zone/"
+                href="/2-preparation/4-create-hosted-zone/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="https://mhkhang1803.github.io/FCJ-Workshop/vi/2-preparation/4-create-hosted-zone/"
+                href="/vi/2-preparation/4-create-hosted-zone/"
                 />
   </url><url>
-    <loc>https://mhkhang1803.github.io/FCJ-Workshop/vi/5-failover-routing/</loc>
+    <loc>/vi/5-failover-routing/</loc>
     <lastmod>2025-08-07T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://mhkhang1803.github.io/FCJ-Workshop/5-failover-routing/"
+                href="/5-failover-routing/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="https://mhkhang1803.github.io/FCJ-Workshop/vi/5-failover-routing/"
+                href="/vi/5-failover-routing/"
                 />
   </url><url>
-    <loc>https://mhkhang1803.github.io/FCJ-Workshop/vi/6-clean-up-resource/</loc>
+    <loc>/vi/6-clean-up-resource/</loc>
     <lastmod>2025-08-07T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://mhkhang1803.github.io/FCJ-Workshop/6-clean-up-resource/"
+                href="/6-clean-up-resource/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="https://mhkhang1803.github.io/FCJ-Workshop/vi/6-clean-up-resource/"
+                href="/vi/6-clean-up-resource/"
                 />
   </url><url>
-    <loc>https://mhkhang1803.github.io/FCJ-Workshop/vi/categories/</loc>
+    <loc>/vi/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://mhkhang1803.github.io/FCJ-Workshop/categories/"
+                href="/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="https://mhkhang1803.github.io/FCJ-Workshop/vi/categories/"
+                href="/vi/categories/"
                 />
   </url><url>
-    <loc>https://mhkhang1803.github.io/FCJ-Workshop/vi/tags/</loc>
+    <loc>/vi/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://mhkhang1803.github.io/FCJ-Workshop/tags/"
+                href="/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="https://mhkhang1803.github.io/FCJ-Workshop/vi/tags/"
+                href="/vi/tags/"
                 />
   </url>
 </urlset>
